@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg {
+    background-image: url(galaxy.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+}
+
+.main h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.main .t {
+    color: #fff;
+    font-family: 'Tourney', cursive;
+    font-size: 180px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 50%;
+    border: 2px solid #fff;
+}
+
+.desc {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Gruppo', cursive;    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid white;
+    font-family: 'Gruppo', cursive;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn button:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btnabove {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Gruppo', cursive;
+}
+
+
+
+
+
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.562);
+    border: none;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 60vw;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: inset 5px 5px 8px rgb(162, 162, 162);
+    transform: translate(-50%, -50%);
+}
+
+.boxpara {
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 30px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow:  3px 3px 5px rgb(215, 215, 215);
+}
+.btn2:hover {
+    box-shadow: inset 5px 5px 5px rgb(215, 215, 215);
+}
+
+.overlay {
+    visibility: hidden;
+}
